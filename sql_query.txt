@@ -1,0 +1,41 @@
+Database:diseas
+
+CREATE TABLE `decisiontree` (
+ `Name` varchar(25) NOT NULL,
+ `Symptom1` varchar(100) NOT NULL,
+ `Symptom2` varchar(100) NOT NULL,
+ `Symptom3` varchar(100) NOT NULL,
+ `Symptom4` varchar(100) NOT NULL,
+ `Symptom5` varchar(100) NOT NULL,
+ `Disease` varchar(100) NOT NULL
+)
+
+CREATE TABLE `knearestneighbour` (
+ `Name` varchar(25) NOT NULL,
+ `Symptom1` varchar(100) NOT NULL,
+ `Symptom2` varchar(100) NOT NULL,
+ `Symptom3` varchar(100) NOT NULL,
+ `Symptom4` varchar(100) NOT NULL,
+ `Symptom5` varchar(100) NOT NULL,
+ `Disease` varchar(100) NOT NULL
+)
+
+CREATE TABLE `naivebayes` (
+ `Name` varchar(25) NOT NULL,
+ `Symptom1` varchar(100) NOT NULL,
+ `Symptom2` varchar(100) NOT NULL,
+ `Symptom3` varchar(100) NOT NULL,
+ `Symptom4` varchar(100) NOT NULL,
+ `Symptom5` varchar(100) NOT NULL,
+ `Disease` varchar(100) NOT NULL
+)
+
+CREATE TABLE `randomforest` (
+ `Name` varchar(25) NOT NULL,
+ `Symptom1` varchar(100) NOT NULL,
+ `Symptom2` varchar(100) NOT NULL,
+ `Symptom3` varchar(100) NOT NULL,
+ `Symptom4` varchar(100) NOT NULL,
+ `Symptom5` varchar(100) NOT NULL,
+ `Disease` varchar(100) NOT NULL
+)
