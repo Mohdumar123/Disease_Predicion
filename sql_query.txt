@@ -2,6 +2,7 @@ Database:diseas
 
 CREATE TABLE `decisiontree` (
  `Name` varchar(25) NOT NULL,
+ `Phone` int(25) NOT NULL,
  `Symptom1` varchar(100) NOT NULL,
  `Symptom2` varchar(100) NOT NULL,
  `Symptom3` varchar(100) NOT NULL,
@@ -12,6 +13,7 @@ CREATE TABLE `decisiontree` (
 
 CREATE TABLE `knearestneighbour` (
  `Name` varchar(25) NOT NULL,
+ `Phone` int(25) NOT NULL,
  `Symptom1` varchar(100) NOT NULL,
  `Symptom2` varchar(100) NOT NULL,
  `Symptom3` varchar(100) NOT NULL,
@@ -22,6 +24,7 @@ CREATE TABLE `knearestneighbour` (
 
 CREATE TABLE `naivebayes` (
  `Name` varchar(25) NOT NULL,
+ `Phone` int(25) NOT NULL,
  `Symptom1` varchar(100) NOT NULL,
  `Symptom2` varchar(100) NOT NULL,
  `Symptom3` varchar(100) NOT NULL,
@@ -32,6 +35,7 @@ CREATE TABLE `naivebayes` (
 
 CREATE TABLE `randomforest` (
  `Name` varchar(25) NOT NULL,
+ `Phone` int(25) NOT NULL,
  `Symptom1` varchar(100) NOT NULL,
  `Symptom2` varchar(100) NOT NULL,
  `Symptom3` varchar(100) NOT NULL,
